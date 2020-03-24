@@ -1,0 +1,30 @@
+{
+  "name": "hw9.github.io",
+  "version": "1.0.0",
+  "description": "create a profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huonghuonglacey1020/hw9.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huonghuonglacey1020/hw9.github.io/issues"
+  },
+  "homepage": "https://github.com/huonghuonglacey1020/hw9.github.io#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "es6-promisify": "^6.1.0",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.1.0",
+    "pdf": "^0.1.0",
+    "script": "^0.1.4",
+    "until": "^0.1.1"
+  }
+}
