@@ -4,7 +4,7 @@ const pdf = require("html-pdf");
 const fs = require('fs');
 const util = require("util")
 const generateHTML = require("./generateHTML");
-const writeFileAsync = util.promisify(fs.writeFile);
+const writeFileAsync = util.promisify(fs.writeFile); 
 
 
 
@@ -29,7 +29,7 @@ function getUser() {
         return new Promise(function(resolve, reject){
             inquirer.prompt(question).then(async function(answers){
                 const {username, color} = answers;
-                const url = `https://api.github.com/users/${username}?client_id=${process.env.CLIENT_ID}&client_secret=${process.env.CLIENT_SECRET}`;
+                const url = `https://api.github.com/users/${username}`;
                 try {
                     const response = await axios.get(url);
                     const stars = await getStars(username);

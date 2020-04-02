@@ -26,7 +26,7 @@ const colors = {
   };
   
   function generateHTML(data) {
-    console.log(colors[data.color], "from generatepass");
+    console.log(colors[data.color], "from generateHTML");
     return `<!DOCTYPE html>
   <html lang="en">
      <head>
