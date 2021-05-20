@@ -21,7 +21,7 @@
     "dotenv": "^8.2.0",
     "es6-promisify": "^6.1.0",
     "fs": "0.0.1-security",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "inquirer": "^7.1.0",
     "pdf": "^0.1.0",
     "pdf-html": "^1.0.5",
